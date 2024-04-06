@@ -5,6 +5,8 @@ import sys
 import socket
 
 
+ip = "192.168.100.243"
+port = 55501
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((ip, port))
 server_socket.listen(5)
